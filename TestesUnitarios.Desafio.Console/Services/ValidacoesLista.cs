@@ -14,9 +14,9 @@ namespace TestesUnitarios.Desafio.Console.Services
             return contem;
         }
 
-        public List<int> MultiplicarNumerosLista(List<int> lista, int numero)
+        public List<int> MultiplicarNumerosLista(List<int> lista)
         {
-            var listaMultiplicada = lista.Select(x => x * numero).ToList();
+            var listaMultiplicada = lista.Select(x => x * 2).ToList();
             return listaMultiplicada;
         }
 
